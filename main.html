@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Котятки</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Бабуленькины котятки</h1>
+        </header>
+        
+        <main>
+            <input type="radio" id="abb" name="species_cats" class="species__item_input" checked>
+            <input type="radio" id="brit" name="species_cats" class="species__item_input">
+            <input type="radio" id="rus" name="species_cats" class="species__item_input">
+            <input type="radio" id="sim" name="species_cats" class="species__item_input">
+            <input type="radio" id="man" name="species_cats" class="species__item_input">
+            <input type="radio" id="pers" name="species_cats" class="species__item_input">
+
+            <aside class="species">
+                <ul class="species__list">
+                    <li class="species__item">
+                        <label for="abb">Абиссинская</label>
+                    </li>
+                    <li class="species__item">
+                        <label for="brit">Британская</label>
+                    </li>
+                    <li class="species__item">
+                        <label for="rus">Русская голубая</label>
+                    </li>
+                    <li class="species__item">
+                        <label for="sim">Сиамская</label>
+                    </li>
+                    <li class="species__item">
+                        <label for="man">Манчкин</label>
+                    </li>
+                    <li class="species__item">
+                        <label for="pers">Персидская</label>
+                    </li>
+                </ul>
+            </aside>
+
+            <section class=cats>
+                <div class="single_cat british">
+                    <figure>
+                        <img src="img/1.jpg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+                <div class="single_cat abyssinian">
+                    <figure>
+                        <img src="img/5.jpg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+                <div class="single_cat abyssinian">
+                    <figure>
+                        <img src="img/6.jpg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+                <div class="single_cat british">
+                    <figure>
+                        <img src="img/2.jpg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+                <div class="single_cat russian">
+                    <figure>
+                        <img src="img/11.jpeg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+                <div class="single_cat british">
+                    <figure>
+                        <img src="img/3.jpg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+                <div class="single_cat russian">
+                    <figure>
+                        <img src="img/10.jpeg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+                <div class="single_cat siamese">
+                    <figure>
+                        <img src="img/8.jpg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+
+                <div class="single_cat british">
+                    <figure>
+                        <img src="img/4.jpg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+                <div class="single_cat siamese">
+                    <figure>
+                        <img src="img/7.jpg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+                <div class="single_cat siamese">
+                    <figure>
+                        <img src="img/9.jpg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+                <div class="single_cat persidian">
+                    <figure>
+                        <img src="img/13.jpeg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+                <div class="single_cat persidian">
+                    <figure>
+                        <img src="img/14.jpg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+                <div class="single_cat russian">
+                    <figure>
+                        <img src="img/12.jpeg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+                <div class="single_cat manchkin">
+                    <figure>
+                        <img src="img/15.jpg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+                <div class="single_cat manchkin">
+                    <figure>
+                        <img src="img/16.jpg" alt="">
+                        <figcaption>Гоша, 4 года</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <aside class="rating">
+                <h2>Рейтинг</h2>
+                <input type="checkbox" name="rate" class="filter_rate" id="filter_rate">
+                <label class="filter" for="filter_rate">по убыванию</label>
+                
+                <div class="wrapper">
+                    <div class="rating__item" style="--default: 1; --rate: 8;">
+                        <div class="rating__item-name">Абиссинская</div>
+                        <div class="rating__item-info">
+                            <div class="rating__item-grad green-gradient"></div>
+                            <div class="rating__item-rate">8</div>
+                        </div>
+                    </div>
+                    <div class="rating__item" style="--default: 1; --rate: 7;">
+                        <div class="rating__item-name">Британская</div>
+                        <div class="rating__item-info">
+                            <div class="rating__item-grad yellow-gradient"></div>
+                            <div class="rating__item-rate">7</div>
+                        </div>
+                    </div>
+                    <div class="rating__item" style="--default: 1; --rate: 10;">
+                        <div class="rating__item-name">Русская голубая</div>
+                        <div class="rating__item-info">
+                            <div class="rating__item-grad green-gradient"></div>
+                            <div class="rating__item-rate">10</div>
+                        </div>
+                    </div>
+                    <div class="rating__item" style="--default: 1; --rate: 4;">
+                        <div class="rating__item-name">Сиамская</div>
+                        <div class="rating__item-info">
+                            <div class="rating__item-grad red-gradient"></div>
+                            <div class="rating__item-rate">4</div>
+                        </div>
+                    </div>
+
+                    <div class="rating__item" style="--default: 1; --rate: 10;">
+                        <div class="rating__item-name">Манчкин</div>
+                        <div class="rating__item-info">
+                            <div class="rating__item-grad green-gradient"></div>
+                            <div class="rating__item-rate">10</div>
+                        </div>
+                    </div>
+                    <div class="rating__item" style="--default: 1; --rate: 7;">
+                        <div class="rating__item-name">Персидская</div>
+                        <div class="rating__item-info">
+                            <div class="rating__item-grad yellow-gradient"></div>
+                            <div class="rating__item-rate">7</div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+
+        <footer>
+                <span>&copy; Бабуленькины котятки, 2020</span>
+                <address>
+                    Тургеневский 44
+                </address>
+        </footer>
+    </body>
+</html>
